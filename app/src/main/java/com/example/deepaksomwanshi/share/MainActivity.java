@@ -74,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
             Intent mailer = Intent.createChooser(intent, null);
             startActivity(mailer);
 
+            // Testing share - commit ver 2
+
         } catch(Exception e) {
             //e.toString();
         }
